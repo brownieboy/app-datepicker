@@ -48,7 +48,7 @@
     "clean": "shx rm -rf dist/ src/tests/snapshots/*.png logs/ .*cache *.log",
     "lint:dev": "tslint --config tslint.json --project tsconfig.json --format stylish",
     "prepublishOnly": "npm run lint && npm run build:prod",
-    "install": "npm run build",
+    "install": "tsc -p tsconfig.prod.json",
     "serve": "es-dev-server --watch --port 3002 --node-resolve --dedupe",
     "test": "npm run build:config && npm run test:dev",
     "test:clean": "npm run build:clean && npm t",
