@@ -14,7 +14,6 @@
 
 # folders
 coverage*/
-dist*/
 log*/
 node_modules/
 
