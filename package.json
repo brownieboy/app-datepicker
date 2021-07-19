@@ -1,5 +1,5 @@
 {
-  "name": "app-datepicker",
+  "name": "app-datepicker-rtl",
   "version": "4.3.0",
   "description": "A custom datepicker element based on Google's Material Design built from scratch with lit-element",
   "keywords": [
@@ -14,10 +14,10 @@
     "web-component",
     "web-components"
   ],
-  "homepage": "https://github.com/motss/app-datepicker",
+  "homepage": "https://github.com/brownieboy/app-datepicker",
   "repository": {
     "type": "git",
-    "url": "git@github.com:motss/app-datepicker.git"
+    "url": "git@github.com/brownieboy/app-datepicker"
   },
   "license": "MIT",
   "author": {
